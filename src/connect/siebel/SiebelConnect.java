@@ -23,7 +23,8 @@ public class SiebelConnect {
 			
 			inputs = new SiebelPropertySet();
 			outputs = new SiebelPropertySet();
-			
+			 
+		
 			//INSERT YOUR DATABASE DETAILS HERE
 			inputs.setProperty("tnsNameEntry", "<tnsnames Entry>");
 			inputs.setProperty("dbUser", "<Database Username>");
